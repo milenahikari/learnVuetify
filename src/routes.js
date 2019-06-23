@@ -10,6 +10,7 @@ import On from './components/Pages/On'
 import Filters from './components/Pages/Filters'
 import Computed from './components/Pages/Computed'
 import Watch from './components/Pages/Watch'
+import Deploy from './components/Pages/Deploy'
 
 Vue.use(VueRouter);
 
@@ -60,6 +61,11 @@ const routers = new VueRouter({
       path: '/watch',
       name: 'Watch',
       component: Watch
+    },
+    {
+      path: '/deploy',
+      name: 'Deploy',
+      component: Deploy
     }
   ]
 })

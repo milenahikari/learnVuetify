@@ -32,7 +32,10 @@
       </v-list>
       
     </v-navigation-drawer>
-    <router-view></router-view>
+    
+    <v-container>
+      <router-view></router-view>
+    </v-container>
   </div>
 </template>
 
@@ -75,6 +78,10 @@ h1 {
   color: #26A69A;
   margin-top: 25px;
   margin-bottom: 15px;
+}
+h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 a {
   text-decoration: none;

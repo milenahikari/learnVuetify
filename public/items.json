@@ -45,7 +45,7 @@
     "title": "computed", 
     "icon": "computer", 
     "to": "/computed", 
-    "color": "gray",
+    "color": "black",
     "img": "src/img/computed.png"
   },
   { 
@@ -54,5 +54,12 @@
     "to": "/watch", 
     "color": "brown",
     "img": "src/img/watch.png"
+  },
+  {
+    "title": "deploy",
+    "icon": "description",
+    "to": "/deploy",
+    "color": "blue",
+    "img": "src/img/deploy.png" 
   }
 ]
