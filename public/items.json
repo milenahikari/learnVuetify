@@ -1,0 +1,58 @@
+[
+  { 
+    "title": "v-if and v-show", 
+    "icon": "view_agenda", 
+    "to": "/if", 
+    "color": "green",
+    "img": "src/img/v-if.png"
+  },
+  { 
+    "title": "v-for", 
+    "icon": "cached", 
+    "to": "/for", 
+    "color": "purple",
+    "img": "src/img/v-for.png"
+  },
+  { 
+    "title": "v-model", 
+    "icon": "compare_arrows", 
+    "to": "/model", 
+    "color": "red",
+    "img": "src/img/v-model.png"
+  },
+  { 
+    "title": "v-bind", 
+    "icon": "settings_ethernet", 
+    "to": "/bind", 
+    "color": "orange",
+    "img": "src/img/v-bind.png"
+  },
+  { 
+    "title": "v-on", 
+    "icon": "edit_attributes", 
+    "to": "/on", 
+    "color": "yellow",
+    "img": "src/img/v-on.png"
+  },
+  { 
+    "title": "filter", 
+    "icon": "filter_list", 
+    "to": "/filters", 
+    "color": "blue",
+    "img": "src/img/filters.png"
+  },
+  { 
+    "title": "computed", 
+    "icon": "computer", 
+    "to": "/computed", 
+    "color": "gray",
+    "img": "src/img/computed.png"
+  },
+  { 
+    "title": "watch", 
+    "icon": "visibility", 
+    "to": "/watch", 
+    "color": "brown",
+    "img": "src/img/watch.png"
+  }
+]
