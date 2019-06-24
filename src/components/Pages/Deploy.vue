@@ -6,14 +6,14 @@
     <p>Vamos primeiro fazer o build do nosso app:</p>
     <p>$ <span class="red--text">npm</span> run build</p>
     <p>Ao rodar o build vemos que o Webpack cria varios arquivos js na pasta “dist” com um único arquivo index.html, que pode ser rodado usando um servidor web.</p>
-    <v-img src="src/img/dist.png"></v-img>
+    <v-img src="src/img/pasta-dist.png"></v-img>
 
     <h2>2 - Criando arquivos de compilação</h2>
     <p>Esses passos são necessários para que a Heroku saiba como servir seus ativos estáticos sempre que dermos um push para o repo remoto. Adicione o postinstall e ganchos de início à sua seção de scripts no package.json (pasta raiz do app).</p>
     <p>"postinstall": "<span class="red--text">npm</span> run build",</p>
     <p>"start": "node server.js"</p>
     <p>Ficando desse jeito:</p>
-    <v-img src='src/img/package.png'></v-img>
+    <v-img src='src/img/arquivo-package.png'></v-img>
 
     <h2>3 - Criando server.js</h2>
     <p>Após feito isso, vamos criar um arquivo “server.js” na pasta raiz do app e escrever um script para fazer o servidor express rodar na pasta “dist”, com isso quando a aplicação iniciar no Heroku, vai rodar também nosso servidor:</p>

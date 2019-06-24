@@ -60,6 +60,6 @@
     "icon": "description",
     "to": "/deploy",
     "color": "blue",
-    "img": "src/img/deploy.png" 
+    "img": "src/img/deploy-app.png" 
   }
 ]
