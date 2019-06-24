@@ -2,7 +2,7 @@
   <section>
     <h1>Usando o v-model em formulário</h1>
 
-    <div class="container">
+    <div>
       <label for="">Nome</label><br>
       <input class="format-input" type="text" v-model="nome">
 
@@ -65,10 +65,6 @@ export default {
 label {
   margin-top: 20px;
   margin-bottom: 10px;
-}
-.container{
-  text-align: justify;
-  margin-left: 20px;
 }
 .format-input {
   width: 400px;

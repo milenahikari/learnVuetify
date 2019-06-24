@@ -32,9 +32,11 @@
       </v-list>
       
     </v-navigation-drawer>
-    
-    <v-container>
-      <router-view></router-view>
+
+    <v-container fluid fill-height>
+      <v-layout>
+        <router-view></router-view>
+      </v-layout>
     </v-container>
   </div>
 </template>
