@@ -48,6 +48,8 @@
     <p>$ git push <span class="green--text">heroku</span> master</p>
 
     <h2>8 - Finalizando</h2>
+    
+    <h1>Obrigada ao Mocingo bonitão! S2</h1>
   </section>
 </template>
 
